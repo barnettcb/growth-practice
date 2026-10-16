@@ -1,7 +1,7 @@
 'use strict';
 // The four-week outline is provisional. Future weeks are not automatically assigned.
 const GP_CONTENT={
- version:'1.0.3',
+ version:'1.0.4',
  startMonday:'2026-10-19',
  week1:{
   number:1,title:'Interrupting automatic defensiveness',subtitle:'Standard DBT STOP · Missing-Links Analysis · Fruzzetti Chapter 3',

@@ -1,50 +1,50 @@
-# Growth Practice — v1.0.3 (daily-first beta)
+# Growth Practice v1.0.4 — Flexible events & skill rehearsal beta
 
-**This is an update to Growth Practice v1.0.2, not a replacement for the separate RO Diary or Conflict Training apps.**
+An update to the existing Growth Practice iPhone-first PWA. This **does not replace or modify** the separate RO Diary or Conflict Training apps.
 
-## Daily flow
+## Daily workflow
 
-Open the app, enter the existing four-digit PIN, and land directly on **Today**. Record mindfulness and rehearsal, then add any number of real-life events. An event can be a short note; optional fields for recognition, actions, feelings, and interpretations stay collapsed until needed. Tap **Mark complete** if you want to mark the day finished. Entries autosave before and after completion.
+1. Open **Today** with your same four-digit PIN. Today is the day’s actual diary, not a link screen.
+2. Record optional **mindfulness** (daily ten-minute breath/noting exercise) and **skill rehearsal**.
+3. Add one or more **events** if something worth remembering occurred. Events can be difficult, positive, everyday, or mixed. One brief note is enough. Open **More detail** only when useful.
+4. Mark the day complete when you are ready. Everything autosaves; unanswered is not the same as “No.” The completion state reopens if you edit.
+5. Move between dates using arrows; **Back to today** restores the current day.
 
-Use **Today** arrows for earlier days and **Back to today** to return. Earlier calendar weeks open read-only and require a deliberate unlock to edit. The bottom bar shows only **Today · Learn · Toolkit · Review**. The gear opens **Settings** and encrypted backups. A short link on the Today header opens that day's lesson.
+## Rehearsal, now explicit
 
-In Learn, choose Week 1–8. Week 1 is the current assigned training; Weeks 2–4 are provisional and Weeks 5–8 are unassigned placeholders. Read, watch, and manually mark activities after doing them. **Copy lesson starter** copies text for a **new Tuesday ChatGPT Skills Training chat**. **Copy for ChatGPT** copies a fictional guided rehearsal prompt for that chat. The app does not communicate with ChatGPT; nothing is completed automatically.
+- **Weekly aim:** After learning that week’s skill, try **three brief 2–5 minute rehearsals**. Wednesday, Friday, and Sunday are suggestions, not mandatory slots. The schedule can be revised with observations.
+- **The three Week 1 scenarios are a library, not a three-item homework checklist.** Repeat the same scenario, rotate among them, or create a similarly manageable fictional cue. There is no requirement to complete every scenario once.
+- **Solo practice counts:** imagine/read a cue, practice a different response aloud or mentally, and run it again. **ChatGPT-guided rehearsal is optional:** in Learn, copy a scenario into a Skills Training conversation and work through one turn at a time, after first studying the skill.
+- On Today, record whether you **Practiced**, **Planned but missed**, or **Did not plan** a rehearsal. When you practiced, specify **On my own**, **With ChatGPT**, or **Other**, with an optional short description.
+- A real-world use or missed opportunity belongs in **Events**, not automatically in the rehearsal box. Learning activities are completed only when you actually did them. Practicing in chat does not auto-update the app.
 
-## What changed since v1.0.2
+## General-purpose events
 
-- Removed separate Home and link-only Today pages, merging the actionable Daily Diary into the landing screen.
-- Reduced navigation from six entries to four, with Settings behind the gear.
-- Kept day navigation and direct return to today in the daily entry.
-- Collapsed optional event details. Multiple events per day remain supported.
-- Removed the separate real-world opportunity question for new entries: event count or a deliberate **No events to note** now indicates what was noticed. Earlier opportunity-only values remain in the encrypted vault and still appear in historical reports.
-- Shortened repetitive UI descriptions, using optional **Details** disclosures in Learn.
-- Replaced the weekly Opportunity table column with Events; weekly PDF and copied reports retain individual observations.
-- Preserved Week 1 assignments, proposed Weeks 2–4, open Weeks 5–8, four-digit PIN, backups, encryption, and auto-lock behavior.
+New events begin with **Title (optional)** and **What happened?**. Opening **More detail** offers all-optional fields: **Type (difficult/positive/everyday/mixed)**, feelings, body sensations, thoughts/interpretations, urges, actions/social signals, what followed, skills used, and flag for Monday review. This structure is a **custom lightweight event log** inspired by observational distinctions used in standard DBT, Lynch's RO-DBT diary cards, and ACT, **not** a verbatim official worksheet or behavior-chain analysis.
 
-## Updating an existing GitHub Pages installation
+Earlier event records (including older recognition/defensiveness action tags) remain present and appear in a small **Earlier event tags** section. The new form no longer forces those options onto new events. Weekly Markdown and PDF reports include the new fields and retain old tags where they exist.
 
-1. **Before uploading**, open the currently installed v1.0.2 app and download a fresh encrypted backup from Settings. Securely store the file and remember your PIN. The four-digit PIN offers **weak protection if someone steals the file**, even though the backup is encrypted.
-2. Download and extract the new v1.0.3 ZIP. Open the folder `growth-practice-v1.0.3`.
-3. Upload **the files inside that folder** to the **same GitHub repository, same branch, and same root location** as before. Replace existing files, including `app.js`, `styles.css`, `content.js`, `pdf-export.js`, `sw.js`, `index.html`, the manifest, and docs. Keep the `icons` directory.
-4. Wait for GitHub Pages deployment. Close and reopen the home-screen app. Confirm the header displays **v1.0.3**. If the old layout appears, let the site finish deploying, reopen or refresh the same installed app. Do **not** clear Safari website data or delete the Home Screen app to force the update.
-5. Enter the same four-digit PIN and verify older entries, Week 1 learning marks, and one weekly PDF. Only then start using the new flow.
+## Skills reference
 
-**Do not create a new repository, change the GitHub Pages URL, delete old vault data, or uninstall the app.** Local IndexedDB storage is tied to the origin (website address) and Safari installation context. Backups are essential; this app has no remote sync or PIN recovery.
+The former anger-centered Toolkit is now **Skills** in the same bottom tab position. It offers short reminders for **Strong emotion**, **Avoidance/resistance**, **Lost in thought**, **Connection/listening**, and **Something positive**. The screen marks official approaches and custom adaptations. It is a quick reference, **not** the full training lesson or a crisis/safety plan.
 
-## New installation
+## Learn and Review
 
-Upload all files to the root of a new GitHub Pages repository, enable Pages, open the site using HTTPS in Safari, and choose Add to Home Screen. Set a four-digit PIN when first opening the app. This app uses its **own** local database `growth-practice-v1` rather than either predecessor app's storage.
+Week 1 is assigned. Weeks 2–4 are proposals; Weeks 5–8 remain open/unassigned. Learn contains primary reading, optional video and Tuesday ChatGPT education starter, plus the solo and optional guided rehearsal instructions. Review provides a seven-day log, separate events, editable weekly notes, a copied Markdown report, and a local PDF. Generated PDF and copied reports are **unencrypted** and must be shared intentionally.
 
-## Security and limitations
+## Updating an existing installation
 
-- Personal entries are encrypted locally with AES-GCM. The PIN-derived key uses PBKDF2 with 600,000 iterations and a random salt. A four-digit PIN offers only 10,000 combinations; this **does not provide strong offline resistance** if an attacker obtains the encrypted vault or backup.
-- The PIN cannot be recovered. A new install or a separate Safari installation context may not see an existing vault; restore from an encrypted backup when appropriate.
-- The app has no analytics, remote database, external fonts/scripts, or automatic AI access. A linked YouTube lesson only loads when opened manually.
-- Weekly PDFs, copied Markdown reports, and prompts pasted into ChatGPT are **unencrypted**. Review and share them intentionally.
-- Older v1.0.0 backups protected by a long passphrase remain supported, subject to entering that original passphrase.
-- This is a self-directed training tool, not a clinical assessment, therapist access portal, or emergency service. The skills source labels are maintained (Linehan = standard DBT, Fruzzetti = DBT-informed relationship work, custom applications are identified).
-- Actual on-device iPhone/Safari acceptance testing, offline PWA operation, and Github Pages deployment cannot be certified by this container's headless Chromium, which timed out on local navigation. See `UPGRADE-AND-TEST.md`.
+1. **First, export an encrypted backup** from your working v1.0.3 app (Settings gear). Keep it somewhere private; remember your four-digit PIN.
+2. Unzip v1.0.4. Upload the **contents** of the `growth-practice-v1.0.4` folder to the **same GitHub Pages repository, branch, and directory** that host your app. Replace all existing files; keep the `icons` folder and `.nojekyll` file.
+3. Wait for GitHub Pages to deploy. Close/reopen the home-screen app and confirm it shows **v1.0.4**. Do **not** uninstall, delete the repository, change the web address, or clear Safari data.
+4. Unlock with the **same four-digit PIN**. Inspect one earlier event and one completed learning activity before adding new data.
+5. Try one positive event, one avoidance-related event, a solo rehearsal, and a weekly PDF. Use the included `UPGRADE-AND-TEST.md` checklist.
 
-## Contents
+The encrypted vault keeps the same database name (`growth-practice-v1`), data schema and PIN encryption settings. v1.0.3 backups remain restorable; restoring any backup **replaces**, rather than merges with, current app records.
 
-`index.html`, `styles.css`, `app.js`, `content.js`, `pdf-export.js`, `manifest.webmanifest`, `sw.js`, `icons/`, `WEEK-1-GUIDE.md`, `UPGRADE-AND-TEST.md`, `.nojekyll`.
+## Privacy and limitations
+
+- Local storage uses AES-GCM with a PBKDF2-derived key. A four-digit PIN has only 10,000 combinations, so stolen encrypted backups remain vulnerable to offline guessing. Keep backups protected by your device and private storage.
+- No cloud account, analytics, tracking, third-party fonts, external script libraries, or ChatGPT API access. External YouTube links only open when selected. The app must be deployed via HTTPS; GitHub Pages hosts *code only*, not your private diary.
+- Automatic lock after five minutes idle, local encrypted export/restore, and offline service worker support remain. Existing data is tied to website origin / installed-app storage; the four-digit PIN cannot be recovered.
+- Automated tests covered screen logic, general events, older data, PIN cryptography, copied reports, PDF output, code syntax, and ZIP integrity. **iPhone/Safari browser acceptance and offline behavior still require your real-device check.**

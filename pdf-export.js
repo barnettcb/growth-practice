@@ -100,11 +100,17 @@ function buildPdfBytes(report){
     if(!d.events.length)p.text('No separate events recorded.',{size:8.7,gap:3});
     for(const ev of d.events){
       p.ensure(45);p.text(ev.title+(ev.flag?'  [For Monday review]':''),{size:9.7,bold:true,lineHeight:13,gap:1});
-      if(ev.recognition!=='-')p.text('Recognition: '+ev.recognition,{size:8.6,lineHeight:11});
-      if(ev.actions)p.text('Actions: '+ev.actions,{size:8.6,lineHeight:11});
+      if(ev.kind)p.text('Type: '+ev.kind,{size:8.6,lineHeight:11});
+      if(ev.recognition!=='—'&&ev.recognition!=='-')p.text('Earlier awareness tag: '+ev.recognition,{size:8.6,lineHeight:11});
+      if(ev.actions)p.text('Earlier action tags: '+ev.actions,{size:8.6,lineHeight:11});
       if(ev.facts)p.text('Observed: '+ev.facts,{size:8.6,lineHeight:11});
-      if(ev.emotions)p.text('Feelings/cues: '+ev.emotions,{size:8.6,lineHeight:11});
-      if(ev.interpretations)p.text('Interpretations: '+ev.interpretations,{size:8.6,lineHeight:11});
+      if(ev.emotions)p.text('Feelings: '+ev.emotions,{size:8.6,lineHeight:11});
+      if(ev.body)p.text('Body sensations: '+ev.body,{size:8.6,lineHeight:11});
+      if(ev.interpretations)p.text('Thoughts / interpretations: '+ev.interpretations,{size:8.6,lineHeight:11});
+      if(ev.urges)p.text('Urges: '+ev.urges,{size:8.6,lineHeight:11});
+      if(ev.signals)p.text('Actions / social signals: '+ev.signals,{size:8.6,lineHeight:11});
+      if(ev.results)p.text('What followed: '+ev.results,{size:8.6,lineHeight:11});
+      if(ev.skills)p.text('Skills used: '+ev.skills,{size:8.6,lineHeight:11});
       p.y-=5;
     }
     p.y-=6;

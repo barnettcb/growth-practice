@@ -73,3 +73,14 @@
 .info-details summary{min-height:32px;display:flex;align-items:center}
 .resource-main .eyebrow{font-size:10px}
 @media(max-width:390px){.nav button{font-size:11px}.practice-head .small{font-size:11px}.event-actions{grid-template-columns:repeat(2,minmax(0,1fr))}.event-card{padding:12px}.compact-cta{max-width:135px}}
+
+/* v1.0.4: focused rehearsal and broadly applicable event details */
+.rehearsal-help,.legacy-note{border:1px solid var(--line);background:#f7f9fa;border-radius:11px;padding:12px;margin:10px 0}
+.rehearsal-help p,.legacy-note p{font-size:13px;margin-bottom:0}
+.skill-list{display:grid;gap:10px;margin-bottom:16px}
+.skill-card{border:1px solid var(--line);border-radius:13px;padding:13px;background:#fcfdfd}
+.skill-card summary{cursor:pointer;display:flex;flex-direction:column;gap:3px;list-style-position:inside}
+.skill-card summary span{color:var(--sub);font-size:13px}
+.skill-card[open]{background:#f1f6f8}
+.skill-card p{font-size:14px;margin:10px 3px 0}
+.event-card select.field{background:white}

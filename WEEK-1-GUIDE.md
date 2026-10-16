@@ -120,7 +120,7 @@ Ask whether explanation is relevant before deciding it is appropriate; practice 
 
 Someone raises their voice, interrupts, and insists that you accept their interpretation of your intentions. Rehearse the difference among a non-retaliatory pause, respectful disagreement, a boundary, and an appropriate break. Do not assume continued engagement is mandatory.
 
-## 7. Rehearsal protocol for the first practice week
+## 7. Rehearsal protocol for the first practice week (solo or ChatGPT)
 
 **Three to five brief sessions** (2-4 minutes each):
 
@@ -133,10 +133,12 @@ Someone raises their voice, interrupts, and insists that you accept their interp
 
 Do not manufacture a real conflict in order to test STOP. In actual life, use the practice only if a relevant opportunity occurs.
 
+**Practice frequency:** Once you have studied STOP, aim for three 2–5 minute rehearsals in the week (Wednesday, Friday and Sunday are suggested, not mandatory). The three fictional scenarios are choices, not three obligatory assignments: repeat a useful one or rotate. You may do the steps above on your own, aloud or mentally. ChatGPT-guided rehearsal is optional and recorded only if actually done.
+
 ## 8. Daily practice (initial pilot)
 
 - 10 minutes: breath-anchored mindfulness with gentle noting.
-- 2-4 minutes: conflict rehearsal on scheduled days.
+- 2–5 minutes: solo or ChatGPT-guided skill rehearsal on about three days per week once you have learned the skill; repeat scenarios as useful.
 - In ordinary life: notice possible defensive responses, even mid-sentence; choose appropriate action.
 - 3-5 minutes evening: record whether you completed practice and whether a relevant real-life opportunity occurred.
 
@@ -175,7 +177,7 @@ Bring the diary/export or brief practice notes. The weekly review should first e
 
 ## 11. Next steps for integrated-app development
 
-The first safe working beta should focus on the Today dashboard (schedule/completion), 10-minute mindfulness record, simple skills-rehearsal log, quick event note, a minimal immediate-use Conflict Toolkit, and weekly export. A later beta can add multi-model lesson libraries and sophisticated longitudinal analyses.
+The v1.0.4 beta provides a daily-first diary, generic events for challenging/positive/ordinary moments, separate solo/ChatGPT rehearsal logging, a cross-topic quick Skills reference, weekly lesson selection, and weekly export. More sophisticated analyses remain future work.
 
 This guide does **not** modify existing app packages, delete or migrate data, or establish a deployment. Preservation of RO Diary 0.5.14 and its encrypted records remains a requirement before a replacement is developed.
 
