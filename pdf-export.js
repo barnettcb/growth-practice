@@ -88,7 +88,7 @@ function buildPdfBytes(report){
   p.text('Self-reported practice and events. Blank means not entered, not zero.',{size:8.3,gap:4});
   p.text('Created locally. PDF is unencrypted; review before sharing.',{size:8.3,gap:8});
   p.section('Seven-day snapshot');
-  p.table(['Day','Mindfulness','Rehearsal','Opportunity','Entry'],report.overview,[76,110,112,112,126],{fontSize:8.7});
+  p.table(['Day','Mindfulness','Rehearsal','Events','Entry'],report.overview,[76,110,112,112,126],{fontSize:8.7});
   p.section('Learning activities');
   for(const r of report.learning)p.text((r.done?'[x] ':'[ ] ')+r.title,{size:9.5,lineHeight:14,gap:2});
   p.section('Daily observations');
@@ -96,7 +96,7 @@ function buildPdfBytes(report){
   for(const d of report.days){
     p.ensure(42);p.text(d.date+(d.flag?'  [Contains review flag]':''),{size:11,bold:true,lineHeight:16,gap:2});
     p.text('Mindfulness: '+d.mindfulness+'  |  Rehearsal: '+d.rehearsal,{size:9,lineHeight:12,gap:1});
-    p.text('Relevant opportunity: '+d.opportunity,{size:9,lineHeight:12,gap:3});
+    p.text('Events: '+d.opportunity,{size:9,lineHeight:12,gap:3});
     if(!d.events.length)p.text('No separate events recorded.',{size:8.7,gap:3});
     for(const ev of d.events){
       p.ensure(45);p.text(ev.title+(ev.flag?'  [For Monday review]':''),{size:9.7,bold:true,lineHeight:13,gap:1});

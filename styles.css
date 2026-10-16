@@ -32,3 +32,44 @@
 .info-details p{font-size:13px}
 @media(max-width:390px){.home-grid{grid-template-columns:1fr 1fr;gap:7px}.home-link{padding:10px 7px;gap:6px}.home-link-icon{min-width:25px;height:27px;font-size:18px}.home-link strong{font-size:13px}.home-link small{font-size:10px}.nav button{font-size:9.2px}.nav .sym{font-size:18px}.event-card{padding:11px}}
 @media(max-width:325px){.nav button{font-size:8.6px}.nav .sym{font-size:16px}.home-grid{grid-template-columns:1fr}}
+
+/* v1.0.3: daily entry as home; four simple destinations. */
+.nav-inner{grid-template-columns:repeat(4,minmax(0,1fr))}
+.nav button{font-size:12px;min-height:58px}
+.nav .sym{font-size:22px}
+.content{max-width:850px}
+.compact-header{padding-top:14px;padding-bottom:14px}
+.compact-header h1{margin:3px 0 0}
+.day-heading{display:flex;justify-content:space-between;align-items:center;gap:9px;margin-top:10px}
+.compact-cta{font-size:12px;padding:7px 9px;min-height:39px}
+.week-subline{font-size:13px;color:var(--sub);margin:6px 0 0}
+.compact-practice h2{margin-bottom:0}
+.practice-line{padding:13px 0 4px}
+.practice-line+.practice-line{border-top:1px solid var(--line);margin-top:9px}
+.practice-head{display:flex;justify-content:space-between;align-items:center;gap:8px;margin-bottom:8px}
+.practice-head strong{font-size:15px}
+.practice-cue{font-size:12.5px;color:var(--sub);margin:1px 0 9px}
+.minutes-row{display:flex;align-items:center;gap:12px;margin-top:8px;font-size:13px}
+.minutes-row .field{max-width:90px;min-height:38px}
+.inline-link{background:transparent;border:0;color:var(--blue);font-size:13px;padding:7px;text-decoration:underline;font-weight:700}
+.count{display:inline-block;background:#eaf2f4;color:#476b79;border-radius:30px;font-size:12px;padding:3px 7px;margin-left:4px}
+.no-event-area{font-size:13px;color:var(--sub);padding:15px 2px 4px}
+.quiet-row{display:flex;align-items:center;gap:9px;margin-top:8px;flex-wrap:wrap}
+.end-row{display:flex;align-items:center;justify-content:space-between;gap:10px}
+.end-row h2{margin:0}
+.end-row .small{display:block;margin-top:3px}
+.past-info{display:flex;align-items:center;justify-content:space-between;margin-top:12px;gap:8px}
+.event-header h2{margin-bottom:0}
+.event-card{padding:13px;margin:12px 0}
+.event-card .label{margin:9px 0 5px}
+.event-card .area{min-height:70px}
+.event-extra{margin-top:13px;border-top:1px solid #d7e5e8;padding-top:10px}
+.event-extra summary{color:var(--blue);font-size:13px;font-weight:720;cursor:pointer;min-height:28px}
+.event-actions{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:3px 7px}
+.event-actions .check-item{font-size:12px}
+.event-card .btn.mini{min-height:34px;padding:5px 9px;font-size:12px}
+.compact-instructions{background:#f2f7f9;border:1px solid #d1e1e7;border-radius:11px;margin-top:16px;padding:12px}
+.compact-instructions p{font-size:13px;margin:4px 0 10px}
+.info-details summary{min-height:32px;display:flex;align-items:center}
+.resource-main .eyebrow{font-size:10px}
+@media(max-width:390px){.nav button{font-size:11px}.practice-head .small{font-size:11px}.event-actions{grid-template-columns:repeat(2,minmax(0,1fr))}.event-card{padding:12px}.compact-cta{max-width:135px}}

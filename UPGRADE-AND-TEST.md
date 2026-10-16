@@ -1,48 +1,47 @@
-# Growth Practice 1.0.2 — Update an existing iPhone installation
+# Version 1.0.3 — Upgrade & acceptance checklist
 
-This is an **in-place update** for the 1.0.1 four-digit-PIN beta, not a new app or data reset.
+## Preserve data
 
-## Before updating (important)
+- [ ] In v1.0.2, create an encrypted backup in Settings and retain it privately.
+- [ ] Update the same GitHub Pages repository at the same URL. Do not uninstall or clear Safari website data.
+- [ ] Launch v1.0.3 and unlock using the **same four-digit PIN**.
+- [ ] Confirm a previous day's entry, Week 1 reading marks, and any existing events remain present.
 
-1. Open the working v1.0.1 app on your iPhone and enter your existing four-digit PIN.
-2. Open Settings and download a PIN-encrypted backup. Save the `.igpbackup` file in a private place outside Safari/app storage. This backup is weak against offline brute-force attack because the PIN has only 10,000 possible combinations.
-3. Keep the current GitHub repository and the existing home-screen icon. **Do not delete the site, uninstall the PWA, or clear Safari website data.**
+## Daily flow on iPhone
 
-## Update the website
+- [ ] The default unlocked screen is **Today**, with **Mindfulness, Skill rehearsal, Events, Finish** on one screen.
+- [ ] Bottom tabs are **Today · Learn · Toolkit · Review**; Settings is the gear.
+- [ ] Go back one day with the left arrow, then use **Back to today**.
+- [ ] Navigate to a different calendar week; it opens read-only until you choose **Edit past week**.
+- [ ] Mark mindfulness Done, adjust minutes, mark rehearsal Not planned, and verify they persist after leaving and returning.
+- [ ] On a new day with no events, choose **No events to note** and confirm it can be cleared.
+- [ ] Add two events, enter separate notes, expand optional details, close/reopen the event, flag one for review, and verify both remain.
+- [ ] Mark the day complete, edit a field, and confirm it is no longer falsely marked complete.
 
-1. Download and extract `Growth_Practice_v1.0.2_Usability_Update.zip`.
-2. Open its `growth-practice-v1.0.2` folder and upload/replace **the files inside it** into the **same existing GitHub repository root** that currently hosts v1.0.1.
-3. Commit the changed files. Allow GitHub Pages to finish deploying.
-4. Close the installed Home Screen app completely, then reopen it. Refresh/reopen if you still see v1.0.1. The new Home screen header should show **v1.0.2**.
-5. Unlock using **the same four-digit PIN**. You do not need to create a new PIN or restore data merely because the code was updated.
+## Learning, reports & privacy
 
-## Suggested 5-minute acceptance check
+- [ ] Tap **Week 1 lesson** from Today; Learn opens on the matching week.
+- [ ] Change weeks in the dropdown; Weeks 5–8 remain unassigned.
+- [ ] Open/close optional details; check one resource and confirm the completion count updates.
+- [ ] Copy lesson starter or a fictional practice scenario, then paste into an intentionally chosen ChatGPT conversation. No record is sent automatically.
+- [ ] Open Toolkit then return to Today and verify no observations were lost.
+- [ ] In Review, verify the **Events** column, multiple event details, copied weekly report, and a readable PDF.
+- [ ] In Settings, create an encrypted backup and test restoring **only where it is safe to replace data**; restoring overwrites current Growth Practice records.
+- [ ] Lock/reopen app; verify the four-digit PIN remains the only unlock credential.
+- [ ] Check the Home Screen app after briefly going offline once it has loaded successfully online.
 
-- Home has six cards and bottom navigation shows **Home, Today, Diary, Learn, Toolkit, Review**.
-- In Today, tap left arrow to browse yesterday and then **Back to Today**. No historical diary entry should be changed by browsing.
-- Check an existing v1.0.1 diary entry. Old single notes are presented as a separate event with observations, interpretations, actions and review flag preserved.
-- In Diary, add two fictional test events on today's date; confirm they are separately editable. Delete them after the test. A real opportunity is not inferred simply by creating an event.
-- Open Learn and select Week 2, then Week 4, then Week 1. Week 1 activity checks should still be present if previously marked. Weeks 5–8 should say **not assigned**.
-- Open Review and verify two events appear separately in the report/PDF after adding your own test observations. Exported PDF and clipboard text are NOT encrypted.
-- Make another PIN-encrypted backup after confirming the update.
+If an upgrade fails, do **not** clear data or reinstall impulsively. Preserve the old backup, retain the existing GitHub Pages URL, and report the precise failure and app version.
 
-## Behavior changes
+## Design audit and research basis
 
-- The new Home screen is a hub, while Today is a browseable daily plan.
-- Diary removes `Unclear` as a new mindfulness answer. Older `Unclear` entries remain visible instead of being silently rewritten.
-- Diary displays the specific week's rehearsal and a **suggested** three-session schedule (Wednesday/Friday/Sunday). The user can choose other days. `Not planned` is a deliberate answer, not a failure.
-- A real-world opportunity means a relevant situation where the week's skill *could* be used, even if it was not recognized or used. It is separate from rehearsal.
-- Unlimited separate events replace the one shared observations area; older observations are preserved and migrated automatically on unlock.
-- Learn combines reading materials with the matching explanations and provides a week selector for Weeks 1–8. Weeks 2–4 are **proposals**; Weeks 5–8 are deliberately open planning slots.
-- `Copy Week N learning instructions` and `Copy this scenario for ChatGPT` just place text on the clipboard. Open your DBT/RO-DBT/ACT Project in ChatGPT, paste and send. These buttons **do not** start a chat, send private records, perform a rehearsal, or check off work.
+Three public self-help app patterns informed the redesign (not their therapy content or data models):
 
-## What is unchanged
+- **Daylio** emphasizes fast daily records with optional notes, followed by calendar/history and reports: https://daylio.net/
+- **Finch** brings a small set of daily goals and reflection actions to its main view: https://help.finchcare.com/hc/en-us/articles/37780000231309-Exploring-the-Finch-Home-Page
+- **Stoic** keeps guided content alongside but apart from daily reflections: https://www.getstoic.com/features
 
-- PIN-only unlocking and locally AES-GCM encrypted IndexedDB vault under `growth-practice-v1`.
-- Same encrypted PIN-backup format; backups from 1.0.1 are restorable.
-- No remote syncing, telemetry, cloud database, or change to your separate RO Diary or Conflict Training applications.
-- Archived weeks normally open read-only and require an explicit action to edit.
+These are design references only. Version 1.0.3 retains the agreed one-person RO-DBT / standard DBT / ACT source distinctions and the unique multi-event daily record, not generic mood scores or gamification.
 
-## Testing and limits
+## Automated checks
 
-Automated checks covered JavaScript parsing, rendering every section, week selection, two-event diaries and exports, old-format event migration, encryption/decryption with the same PIN (including `0123`), wrong-PIN rejection, and a valid generated PDF containing multiple events. This environment could not complete a real Safari device/UI test. Validate the upgrade on your phone, especially navigation, backup/restore and offline access, before relying on this beta as your sole record.
+v1.0.3 was checked with Node-based test cases for render output, day navigation, event creation, earlier records, encrypted AES-GCM round trip with leading-zero PIN, bad-PIN rejection, learning selections, weekly reports, and PDF bytes. Code syntax and ZIP integrity were checked. This does **not** replace a real on-device usability test.
