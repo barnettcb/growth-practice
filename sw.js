@@ -1,5 +1,5 @@
-const CACHE='growth-practice-v1.0.1';
-const ASSETS=['./','./index.html','./styles.css?v=1.0.1','./content.js?v=1.0.1','./pdf-export.js?v=1.0.1','./app.js?v=1.0.1','./manifest.webmanifest?v=1.0.1','./icons/icon-192.png','./icons/icon-512.png'];
+const CACHE='growth-practice-v1.0.2';
+const ASSETS=['./','./index.html','./styles.css?v=1.0.2','./content.js?v=1.0.2','./pdf-export.js?v=1.0.2','./app.js?v=1.0.2','./manifest.webmanifest?v=1.0.2','./icons/icon-192.png','./icons/icon-512.png'];
 self.addEventListener('install',e=>e.waitUntil(caches.open(CACHE).then(c=>c.addAll(ASSETS)).then(()=>self.skipWaiting())));
 self.addEventListener('activate',e=>e.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k.startsWith('growth-practice-')&&k!==CACHE).map(k=>caches.delete(k)))).then(()=>self.clients.claim())));
 self.addEventListener('fetch',e=>{

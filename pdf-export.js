@@ -84,7 +84,7 @@ class ReportPainter{
 function buildPdfBytes(report){
   const p=new ReportPainter();
   p.text('GROWTH PRACTICE | WEEKLY REVIEW',{size:17,bold:true,lineHeight:21});
-  p.text(report.range+'  |  Week 1: STOP and Missing-Links',{size:10,gap:10});
+  p.text(report.range+'  |  '+(report.curriculum||'Weekly practice'),{size:10,gap:10});
   p.text('Self-reported practice and events. Blank means not entered, not zero.',{size:8.3,gap:4});
   p.text('Created locally. PDF is unencrypted; review before sharing.',{size:8.3,gap:8});
   p.section('Seven-day snapshot');
@@ -94,13 +94,19 @@ function buildPdfBytes(report){
   p.section('Daily observations');
   if(!report.days.length)p.text('No daily observations have been recorded.',{size:9.4,gap:4});
   for(const d of report.days){
-    p.ensure(42);p.text(d.date+(d.flag?'  [For Monday review]':''),{size:11,bold:true,lineHeight:16,gap:2});
+    p.ensure(42);p.text(d.date+(d.flag?'  [Contains review flag]':''),{size:11,bold:true,lineHeight:16,gap:2});
     p.text('Mindfulness: '+d.mindfulness+'  |  Rehearsal: '+d.rehearsal,{size:9,lineHeight:12,gap:1});
-    p.text('Opportunity: '+d.opportunity+'  |  Recognized: '+d.recognition,{size:9,lineHeight:12,gap:1});
-    if(d.actions)p.text('Actions: '+d.actions,{size:9,maxWidth:CONTENT_W,lineHeight:12,gap:1});
-    if(d.emotions)p.text('Emotion language: '+d.emotions,{size:9,maxWidth:CONTENT_W,lineHeight:12,gap:1});
-    if(d.facts)p.text('Observations: '+d.facts,{size:9,maxWidth:CONTENT_W,lineHeight:12,gap:1});
-    if(d.interpretations)p.text('Interpretation/uncertainty: '+d.interpretations,{size:9,maxWidth:CONTENT_W,lineHeight:12,gap:2});
+    p.text('Relevant opportunity: '+d.opportunity,{size:9,lineHeight:12,gap:3});
+    if(!d.events.length)p.text('No separate events recorded.',{size:8.7,gap:3});
+    for(const ev of d.events){
+      p.ensure(45);p.text(ev.title+(ev.flag?'  [For Monday review]':''),{size:9.7,bold:true,lineHeight:13,gap:1});
+      if(ev.recognition!=='-')p.text('Recognition: '+ev.recognition,{size:8.6,lineHeight:11});
+      if(ev.actions)p.text('Actions: '+ev.actions,{size:8.6,lineHeight:11});
+      if(ev.facts)p.text('Observed: '+ev.facts,{size:8.6,lineHeight:11});
+      if(ev.emotions)p.text('Feelings/cues: '+ev.emotions,{size:8.6,lineHeight:11});
+      if(ev.interpretations)p.text('Interpretations: '+ev.interpretations,{size:8.6,lineHeight:11});
+      p.y-=5;
+    }
     p.y-=6;
   }
   p.section('Review notes');

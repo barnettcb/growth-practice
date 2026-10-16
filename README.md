@@ -1,20 +1,21 @@
 # Growth Practice — Integrated Personal Growth App
 
-**Version 1.0.1 — PIN-only update to the initial working beta**  
+**Version 1.0.2 — usability update, preserving the 4-digit PIN**  
 **Built:** October 15, 2026  
-**Initial content:** Week 1 — standard DBT STOP, Linehan Missing-Links Analysis, and Alan Fruzzetti's *The High-Conflict Couple* Chapter 3.
+**Initial content:** Week 1 assigned — standard DBT STOP, Linehan Missing-Links Analysis, and Alan Fruzzetti's *The High-Conflict Couple* Chapter 3. Weeks 2–4 are proposed; Weeks 5–8 are unassigned slots.
 
 ## What this release does
 
 This is a standalone, local-first iPhone-oriented Progressive Web App. It does **not** replace, overwrite, synchronize, or migrate the existing `ro-diary` or `conflict-training` installations. It uses its own IndexedDB storage (`growth-practice-v1`).
 
-The five primary screens follow the daily / weekly workflow:
+Six main screens follow the daily / weekly workflow:
 
-1. **Today**: daily 10-minute breath-anchored noting practice, real-life awareness cue, evening diary, Week 1 shortcut; on Monday it emphasizes the weekly review, on Tuesday the learning session.
-2. **Diary**: practice *versus* real-world opportunity and behavior; meaningful answers stay distinct from unanswered; optional observation/interpretation notes, review flag, and deliberate completion status.
-3. **Learn**: Week 1 verified reading references, source summaries, video link, practice examples, and one-click copyable ChatGPT prompts. Reading, video, and deep-dive marks are **user-controlled**, not automatically completed.
-4. **Toolkit**: quick standard-DBT STOP steps; a separate custom application for remaining engaged without retaliation, while preserving the right to set boundaries or take a break when needed. A quick path back to diary.
-5. **Review**: Monday–Sunday weekly overview, archived weeks, optional review notes, locally generated PDF, copyable Markdown for a new ChatGPT Monday review, and a copyable Monday review prompt.
+1. **Home**: explicit launch menu for all main sections.
+2. **Today**: daily 10-minute breath-anchored noting practice, real-life awareness cue, evening diary, Week 1 shortcut; on Monday it emphasizes the weekly review, on Tuesday the learning session.
+3. **Diary**: practice *versus* real-world opportunity and behavior; meaningful answers stay distinct from unanswered; optional observation/interpretation notes, review flag, and deliberate completion status.
+4. **Learn**: Week 1 verified reading references, source summaries, video link, practice examples, and one-click copyable ChatGPT prompts. Reading, video, and deep-dive marks are **user-controlled**, not automatically completed.
+5. **Toolkit**: quick standard-DBT STOP steps; a separate custom application for remaining engaged without retaliation, while preserving the right to set boundaries or take a break when needed. A quick path back to diary.
+6. **Review**: Monday–Sunday weekly overview, archived weeks, optional review notes, locally generated PDF, copyable Markdown for a new ChatGPT Monday review, and a copyable Monday review prompt.
 
 Settings (gear): lock, encrypted backup, encrypted restore, limitations and privacy reminders.
 
@@ -30,7 +31,7 @@ Settings (gear): lock, encrypted backup, encrypted restore, limitations and priv
 
 **Use a NEW repository**, e.g. `growth-practice`. Do not upload this ZIP's files into `ro-diary` or `conflict-training`.
 
-1. Download the ZIP, extract it, and open the `integrated-growth-v1` folder.
+1. Download the ZIP, extract it, and open the `growth-practice-v1.0.2` folder.
 2. On GitHub's website, create a new repository such as `growth-practice`. For the easiest deployment, make it public. **Public means the app's generic HTML/JS/CSS is visible to anyone; it does not publish encrypted personal entries.** Never commit personal diary data or backup files.
 3. Use **Add file → Upload files** to upload the files **inside** the extracted folder (`index.html`, `.nojekyll`, `styles.css`, `app.js`, `content.js`, `pdf-export.js`, `sw.js`, `manifest.webmanifest`, `icons/`, etc.) to the repository root. GitHub's web uploader may not upload the hidden `.nojekyll`; you can use Create new file to make one later if needed.
 4. Commit the files. Go to **Settings → Pages → Build and deployment → Deploy from a branch → main → /(root) → Save**. Allow deployment to complete. If your GitHub account is `barnettcb` and the repository is `growth-practice`, the expected URL would be `https://barnettcb.github.io/growth-practice/` *once deployed*. This URL is an example and is **not claimed live**.
@@ -40,10 +41,10 @@ Settings (gear): lock, encrypted backup, encrypted restore, limitations and priv
 
 ## Daily behavior
 
-- **Meditation:** ten minutes of breath-anchored noting is the planned routine. Select `Practiced` and adjust minutes if different from ten. `Did not` and `Unclear` are explicit answers. Unanswered remains blank.
-- **Rehearsal:** distinguishes `Rehearsed`, `Not done`, and `Not scheduled`.
-- **Real-life opportunity:** distinguishes `Yes`, `No`, and `Not sure`. If yes, record when you noticed the response and what you actually did.
-- **Notes:** keep observations and interpretations separate. A Monday-review flag is optional. An entry is complete **only** when you press Mark daily entry complete, not when you start entering it.
+- **Meditation:** ten minutes of breath-anchored noting is the planned routine. Select `Practiced` and adjust minutes if different from ten. `Did not` is an explicit answer; no `Unclear` choice for new entries. Unanswered remains blank.
+- **Rehearsal:** distinguishes `Rehearsed`, `Intended, not done`, and `Not planned`. Week-specific skill and suggested Wednesday/Friday/Sunday practice are shown.
+- **Relevant situation:** distinguishes `Yes`, `None noticed`, and `Not sure`, independent of the event list. Events carry their own recognition, actions, notes and review flag; adding an event does not automatically declare a training opportunity.
+- **Events:** create unlimited separately edited events per day; existing single-note data is preserved as a first event on update. Keep observations and interpretations separate. A Monday-review flag is optional. An entry is complete **only** when you press Mark daily entry complete, not when you start entering it.
 - **Editing older weeks:** the prior calendar week's diary opens read-only. Use Unlock past week to edit deliberately. Review-note edits of older weeks are also explicitly unlocked.
 
 ## Privacy, backup, and data-loss warnings
@@ -60,7 +61,7 @@ Settings (gear): lock, encrypted backup, encrypted restore, limitations and priv
 
 ## Updating later
 
-Replace app code files at the same `growth-practice` GitHub Pages path, preserving the storage origin. Make an encrypted backup **before every update**. Do not rename the database or delete website data until a migration has been tested. The service worker is versioned (`growth-practice-v1.0.1`) for cache updates. Week 2+ curricula will be added in a later release. Do not mark Week 1 mastered automatically when the calendar changes.
+Replace app code files at the same `growth-practice` GitHub Pages path, preserving the storage origin. Make an encrypted backup **before every update**. Do not rename the database or delete website data until a migration has been tested. The service worker is versioned (`growth-practice-v1.0.2`) for cache updates. Weeks 1–4 are visible (Weeks 2–4 provisional); Weeks 5–8 are open planning slots, not assigned courses. Do not mark Week 1 mastered automatically when the calendar changes.
 
 ## Verification performed for this ZIP
 
@@ -81,8 +82,21 @@ Replace app code files at the same `growth-practice` GitHub Pages path, preservi
 - `index.html` — entry screen and strict resource policy
 - `styles.css` — responsive phone-first layout and safe-area sizing
 - `app.js` — encrypted state, screens, daily records, actions, backups, exports, locks
-- `content.js` — Week 1 lesson and copyable ChatGPT prompts
+- `content.js` — Week 1 assignments, provisional Weeks 2–4 and open Weeks 5–8, plus copyable ChatGPT training instructions
 - `pdf-export.js` — local PDF generator adapted from RO Diary's PDF layout engine
 - `manifest.webmanifest`, `sw.js`, `icons/` — PWA install/offline assets
 - `WEEK-1-GUIDE.md` — standalone Week 1 reference for optional use outside app
 - `.nojekyll` — GitHub Pages static-asset compatibility
+
+
+## Upgrade v1.0.1 to v1.0.2 (same website, same PIN)
+
+**Before updating, create a PIN-encrypted backup** from the already-working v1.0.1 app. Keep it in protected private storage; a four-digit PIN is not strong against an attacker who obtains the file.
+
+Upload the files inside this ZIP folder to the **same GitHub repository and same Pages website path**. Replace existing files, do not create a new repo, delete the site, clear browser data, or uninstall the iPhone PWA. The IndexedDB name, encryption setup, PIN, and backup format are unchanged. The new service worker uses a new cache version. After GitHub Pages deploys, close and reopen the Home Screen app (or refresh if necessary). Check a previously saved diary entry before entering new information.
+
+Existing v1.0.1 diary data is kept. The old single observation becomes an editable separate event (with the previous facts, interpretation, feelings, recognition, actions and review flag carried across) **when the vault is unlocked after the update**. Daily mindfulness and rehearsal answers are kept. The `Unclear` mindfulness value on any older entry is retained with a label inviting correction, rather than silently changed. No previous data is uploaded or modified outside this vault.
+
+The app adds Home and a day-by-day Today view. Diary supports any number of distinct events. Week 1 learning and prior marks use the same saved keys; future weeks have separate keys. The Learn selector includes four proposed weeks and four intentionally open slots. Tuesday is the learning day; prompts only copy instructions to the clipboard. You must open ChatGPT yourself and paste/send the instructions. Practice is never marked complete automatically.
+
+**Important:** Installing to a different site origin or different Safari/PWA storage context can create an empty vault. Restore from a tested backup if needed. Do not try deleting the old data to troubleshoot.

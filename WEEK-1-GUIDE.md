@@ -145,7 +145,7 @@ Suggested minimal record:
 | Field | Valid response |
 |---|---|
 | Mindfulness | Done (minutes) / not done |
-| Rehearsal | Done / not done / not scheduled |
+| Rehearsal | Done / not done / not planned |
 | Real-life opportunity | Yes / no / unsure |
 | First observable cue | Brief phrase / none noticed / unsure |
 | Intervention | Before response / after starting / during escalation / afterwards only / not applicable |
