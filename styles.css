@@ -5,3 +5,6 @@
 @media print{.top,.nav,.btn,.no-print{display:none!important}.content{padding:0}.panel{box-shadow:none;break-inside:avoid}}
 
 .entry-fieldset{display:grid;gap:14px;border:0;padding:0;min-width:0;margin:0}.entry-fieldset[disabled]{opacity:.68}.entry-fieldset[disabled] .btn{cursor:not-allowed}
+
+/* Short, numeric PIN entry on mobile without visually disclosing digits. */
+.pin-input { letter-spacing:.35em; font-size:1.35rem; font-variant-numeric:tabular-nums; max-width:100%; }
