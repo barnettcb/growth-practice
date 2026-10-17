@@ -1,6 +1,6 @@
 # Learning Unit 01 — Notice, Pause, and Choose a Workable Response
 
-**Version:** 2.1 rebuilt curriculum + spiral reinforcement, October 17, 2026.  
+**Version:** 2.2 rebuilt curriculum + spiral reinforcement, October 17, 2026.  
 **Status:** Assigned *learning material*, **not completed**. This rebuild supersedes the former calendar 'Week 1' teaching outline.  
 **Pacing:** May span multiple calendar weeks and Tuesday training chats. Monday review occurs regardless of completion.  
 **Focus:** Everyday automatic explaining/correcting and difficulty choosing what to do next; also applies to work, neutral feedback, minor disappointment and ordinary misunderstandings. Occasional severe escalation is a *non-default* optional context, not the center of the unit.
@@ -35,9 +35,17 @@ User has reported that explaining/correcting can begin automatically and that du
 
 **Access note:** Project source pagination refers to the exact available copies; later Linehan revised editions (2025) use different page layouts. Use a legitimate purchaser copy where available; no copyrighted reproduction in this guide.
 
+**Video sourcing/status (October 17, 2026):** The following five optional links are indexed by a clinician-maintained collection at https://jamesfitzgeraldtherapy.com/dbt-media-library/. This verifies their *listing and URL*, not that each full video was watched or will remain playable. Do not count clicking or watching as completion of a reading or a rehearsal. Future units should repeat a topic-specific video/source audit.
+
 ## 3. Coherent learning path (stages, not fixed days)
 
 ### Stage A — The information needed before STOP's P
+
+**Optional teaching videos (DBT; supplements assigned readings):**
+- Wise Mind: [Dr. Jennifer May — Three States of Mind](https://www.youtube.com/watch?v=wlBFV61IG3Q)
+- Observe/Describe/Participate: [Dr. Jennifer May — Mindfulness What Skills](https://www.youtube.com/watch?v=TlrIi3V50Qs)
+- Nonjudgmentally/One-Mindfully/Effectively: [Dr. Jennifer May — Mindfulness How Skills](https://www.youtube.com/watch?v=1vWsgg9JiDo)
+
 
 **Wise Mind** — Read Linehan Handouts 2–3a and Fruzzetti Ch. 2's Emotion/Reason/Wise discussion. Contrast: emotionally urgent action; only-facts/only-rules action; a response responsive to facts *and* emotion and long-term goals. Wise Mind does not guarantee consensus or tell you what the other person meant. Demonstrate with a mild real-world or fictional workplace misunderstanding.
 
@@ -47,11 +55,17 @@ User has reported that explaining/correcting can begin automatically and that du
 
 ### Stage B — STOP as an interruption, including after a false start
 
+**Optional teaching video:** [Dr. Jennifer May — Distress Tolerance STOP](https://www.youtube.com/watch?v=Od9GaNk9Clk).
+
+
 Read the exact Handout 4. Rehearse both **before replying** and **mid-reply**, when the first explanation has already happened. Stopping *the next sentence* still counts as interrupting further automatic behavior. *Observe* includes both the individual's reaction and the other person's actual communication. Do not equate one pause in chat with a changed real-world pattern.
 
 **P is a selection point, not a canned script.** Evaluate: What are my immediate and longer-term goals? Is any practical fact disputed? Do I need more information? What matters to the other person, as expressed (not guessed)? Is there a safety/boundary issue? What next action would be workable? Choose one context-appropriate behavior rather than a universally pleasant-sounding answer.
 
 ### Stage C — Fruzzetti's prevention and rehearsal
+
+**Optional related DBT video:** [Dr. Jennifer May — Urge Surfing](https://www.youtube.com/watch?v=RIA2ewXayTc). This demonstrates a related DBT practice; it is **not** presented as an official Fruzzetti Chapter 3 video or a replacement for his text.
+
 
 After Ch. 2 foundations, read Ch. 3 and identify its practices as separate from STOP:
 - Recognize a **predictable trigger/cue** and notice the tendency to do a familiar action.
@@ -61,6 +75,9 @@ After Ch. 2 foundations, read Ch. 3 and identify its practices as separate from 
 - If relevant, prepare *in the user's own words* a brief way to interrupt an escalating exchange; do not force a lengthy script or unnecessary disengagement.
 
 ### Stage D — Analyze the missed or unhelpful action correctly
+
+**Video status:** No Dr. Jennifer May video specifically teaching Linehan Missing-Links Analysis was verified in the selected video catalog. Use the primary Linehan handout/worksheet and guided case analysis rather than assigning a loosely related video.
+
 
 **Missing-Links**: apply after there was a specific intended action that did not occur (e.g., had intended to listen through another person's account but replied prematurely; or did not perform an agreed everyday action). Follow Linehan Handout 8 in order: knowing the required action, willingness, remembering it in time, obstacles to execution. Avoid inventing the cause.
 

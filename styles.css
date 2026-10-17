@@ -84,3 +84,7 @@
 .skill-card[open]{background:#f1f6f8}
 .skill-card p{font-size:14px;margin:10px 3px 0}
 .event-card select.field{background:white}
+
+/* Supplementary instructor videos are grouped beneath their associated reading. */
+.video-links { margin-top: .55rem; display: grid; gap: .4rem; }
+.video-links a { font-size: .9rem; text-decoration: underline; text-underline-offset: 2px; overflow-wrap: anywhere; line-height: 1.45; }

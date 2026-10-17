@@ -1,4 +1,4 @@
-# Growth Practice v1.0.7 — Learning Units and Comprehensive Lesson Rebuild
+# Growth Practice v1.0.8 — Learning Units and Comprehensive Lesson Rebuild
 
 An update to the existing Growth Practice iPhone-first PWA. This **does not replace or modify** the separate RO Diary or Conflict Training apps.
 
@@ -38,13 +38,13 @@ Weekly Review still tracks seven-day **calendar** periods. Its copied starter re
 
 ## Deep dive, session records, and external sources
 
-The Deep Dive Prompt tells ChatGPT to consult the **Personal Growth Operating Protocol v1.2**, the **Capability and Methods Map**, the **Learning Unit 01 guide** (for Unit 1), and relevant session continuity records in Space/Library. It requests cross-source review, essential prerequisites, actual editions/page checks, method comparison and a lesson-to-rehearsal coverage table. App buttons copy text only and **do not** retrieve Library documents, submit chats, or save `Close Session` records.
+The Deep Dive Prompt tells ChatGPT to consult the **Personal Growth Operating Protocol v1.4**, the **Capability and Methods Map**, the **Learning Unit 01 guide** (for Unit 1), and relevant session continuity records in Space/Library. It requests cross-source review, essential prerequisites, actual editions/page checks, method comparison and a lesson-to-rehearsal coverage table. App buttons copy text only and **do not** retrieve Library documents, submit chats, or save `Close Session` records.
 
 ## Updating an existing installation
 
 1. **First, export an encrypted backup** from your working v1.0.4 (or your currently installed version) app (Settings gear). Keep it somewhere private; remember your four-digit PIN.
-2. Unzip v1.0.7. Upload the **contents** of the `growth-practice-v1.0.7` folder to the **same GitHub Pages repository, branch, and directory** that host your app. Replace all existing files; keep the `icons` folder and `.nojekyll` file.
-3. Wait for GitHub Pages to deploy. Close/reopen the home-screen app and confirm it shows **v1.0.7**. Do **not** uninstall, delete the repository, change the web address, or clear Safari data.
+2. Unzip v1.0.8. Upload the **contents** of the `growth-practice-v1.0.8` folder to the **same GitHub Pages repository, branch, and directory** that host your app. Replace all existing files; keep the `icons` folder and `.nojekyll` file.
+3. Wait for GitHub Pages to deploy. Close/reopen the home-screen app and confirm it shows **v1.0.8**. Do **not** uninstall, delete the repository, change the web address, or clear Safari data.
 4. Unlock with the **same four-digit PIN**. Inspect one earlier event and one completed learning activity before adding new data.
 5. Try one positive event, one avoidance-related event, a solo rehearsal, and a weekly PDF. Use the included `UPGRADE-AND-TEST.md` checklist.
 
@@ -57,6 +57,12 @@ The encrypted vault keeps the same database name (`growth-practice-v1`), data sc
 - Automatic lock after five minutes idle, local encrypted export/restore, and offline service worker support remain. Existing data is tied to website origin / installed-app storage; the four-digit PIN cannot be recovered.
 - Automated tests covered screen logic, general events, older data, PIN cryptography, copied reports, PDF output, code syntax, and ZIP integrity. **iPhone/Safari browser acceptance and offline behavior still require your real-device check.**
 
-## v1.0.7 spiral-practice addition
+## v1.0.8 spiral-practice addition
 
 Learn and Skills now have **Copy Quick Recall Prompt** and **Copy Cumulative Rehearsal**. Neither button retrieves Space data by itself, changes completion flags, or logs a rehearsal. The pasted ChatGPT prompt asks to confirm *which skills were actually introduced*, uses brief retrieval before hints, and combines no more than two previously taught components in an everyday scenario. If only one skill has been taught, the prompt varies that single skill rather than inventing a prior curriculum. Monday's prompt chooses a small earlier-skill revisit in the Next Learning Unit Brief, rather than an app-imposed due date. Record any actual practice in Today (note the skill, actual attempt, and source of evidence). These are custom educational supports, not official therapy skills or proof of transfer to real life.
+
+## v1.0.8 topic-linked teaching videos
+
+The Learn screen shows optional, externally hosted videos **directly under each relevant reading** rather than on a disconnected videos page. Dr. Jennifer May videos are listed under Wise Mind, DBT What/How skills, STOP, and urge management (which complements Fruzzetti Chapter 3 but is not its official video). Missing-Links and Fruzzetti Chapter 2 retain their primary printed assignments and no falsely attributed video.
+
+The URLs were checked against the curated video listings at https://jamesfitzgeraldtherapy.com/dbt-media-library/ (October 17, 2026). Current playback and full contents could not be independently confirmed. Selecting a video opens YouTube externally: it never changes a reading checkbox or sends data to ChatGPT. Video watching is supplementary, not automatically a completion requirement.

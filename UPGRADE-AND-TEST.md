@@ -1,10 +1,10 @@
-# Growth Practice v1.0.7 — Upgrade and acceptance checklist
+# Growth Practice v1.0.8 — Upgrade and acceptance checklist
 
 ## Protect the existing app
 
 - [ ] In the working installed app, save a PIN-encrypted backup to private storage.
-- [ ] Upload all files from v1.0.7 to the **same** GitHub Pages URL/repository. Do not uninstall or clear Safari website data.
-- [ ] Reopen and verify the header is **v1.0.7**, unlock with the **same PIN**, and find at least one older entry/learning checkbox.
+- [ ] Upload all files from v1.0.8 to the **same** GitHub Pages URL/repository. Do not uninstall or clear Safari website data.
+- [ ] Reopen and verify the header is **v1.0.8**, unlock with the **same PIN**, and find at least one older entry/learning checkbox.
 - [ ] Confirm older event notes and their historical response tags remain visible, even though the new event form is generic.
 
 ## Daily use
@@ -37,7 +37,7 @@
 **If something seems missing:** do not clear data or uninstall the app. Preserve the earlier backup and note the precise app version and steps that produced the problem.
 
 
-## New v1.0.7 learning-unit acceptance checks
+## New v1.0.8 learning-unit acceptance checks
 
 - [ ] Learn defaults to Unit 1 with **nine** study items and **seven** distinct practice/analysis examples, including Fruzzetti Ch. 2 and Missing-Links.
 - [ ] Copy Deep Dive Prompt references the rebuilt learning-unit guide, comprehensive source comparison, prerequisite audit and the new Methods Map.
@@ -48,7 +48,7 @@
 - [ ] Existing PIN, previous diary events, checked original reading items, encrypted backup, and PDF report still work. Do not restore a backup without understanding replacement behavior.
 - [ ] Offline refresh and iPhone home-screen tests must be done on the actual device after deployment; static checks do not verify these.
 
-## v1.0.7 cumulative/spiral tests
+## v1.0.8 cumulative/spiral tests
 
 - [ ] Learn → see Quick Recall and Cumulative Rehearsal buttons for Unit 1, and for an unassigned unit.
 - [ ] Skills → same two copy buttons available without leaving the quick reference.
@@ -59,3 +59,12 @@
 - [ ] Verify **copying** any prompt did **not** mark a lesson or rehearsal complete, advance the unit, or modify your stored data.
 - [ ] Optionally record an actual review attempt in Today → Skill rehearsal → note the named skill. Export weekly report to confirm the practice note remains.
 - [ ] Old diary records, PIN, learning checkboxes, backup, and offline reopening still work. Never clear Safari data to force an upgrade.
+
+## v1.0.8 topic-linked video checks
+
+- [ ] Open **Learn → Unit 1**. Under Wise Mind, check that the video link is visible without expanding **Details**; confirm it opens the intended YouTube URL.
+- [ ] Under Observe/Describe, confirm separate **What Skills** and **How Skills** video links.
+- [ ] Under STOP, confirm **STOP** video link; under Fruzzetti Chapter 3, confirm **Urge Surfing** labeled as a related DBT video (not Fruzzetti content).
+- [ ] Missing-Links has no unverified/misattributed Dr. May video.
+- [ ] Copy Deep Dive Prompt and ensure that it requests topic-linked supplementary videos and does not claim they have been watched.
+- [ ] Open videos without marking the reading checkboxes; verify no checkbox changes. Test availability and return to the app on iPhone.
