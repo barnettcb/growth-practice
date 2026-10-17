@@ -1,4 +1,4 @@
-# Growth Practice v1.0.5 — Adaptive Deep Dive Prompt Update
+# Growth Practice v1.0.7 — Learning Units and Comprehensive Lesson Rebuild
 
 An update to the existing Growth Practice iPhone-first PWA. This **does not replace or modify** the separate RO Diary or Conflict Training apps.
 
@@ -12,8 +12,8 @@ An update to the existing Growth Practice iPhone-first PWA. This **does not repl
 
 ## Rehearsal, now explicit
 
-- **Weekly aim:** After learning that week’s skill, try **three brief 2–5 minute rehearsals**. Wednesday, Friday, and Sunday are suggestions, not mandatory slots. The schedule can be revised with observations.
-- **The three Week 1 scenarios are a library, not a three-item homework checklist.** Repeat the same scenario, rotate among them, or create a similarly manageable fictional cue. There is no requirement to complete every scenario once.
+- **Weekly aim:** After learning the relevant unit component, an initial option is **three brief 2–5 minute rehearsals** if feasible; this is not a mastery threshold. Wednesday, Friday, and Sunday are suggestions, not mandatory slots. The schedule can be revised with observations.
+- **The seven Learning Unit 1 scenario/analysis choices are a library, not a seven-item homework checklist.** Repeat a useful scenario, choose a different skill area, or create a similarly manageable ordinary cue. There is no requirement to complete every scenario once.
 - **Solo practice counts:** imagine/read a cue, practice a different response aloud or mentally, and run it again. **ChatGPT-guided rehearsal is optional:** in Learn, copy a scenario into a Skills Training conversation and work through one turn at a time, after first studying the skill.
 - On Today, record whether you **Practiced**, **Planned but missed**, or **Did not plan** a rehearsal. When you practiced, specify **On my own**, **With ChatGPT**, or **Other**, with an optional short description.
 - A real-world use or missed opportunity belongs in **Events**, not automatically in the rehearsal box. Learning activities are completed only when you actually did them. Practicing in chat does not auto-update the app.
@@ -28,21 +28,23 @@ Earlier event records (including older recognition/defensiveness action tags) re
 
 The former anger-centered Toolkit is now **Skills** in the same bottom tab position. It offers short reminders for **Strong emotion**, **Avoidance/resistance**, **Lost in thought**, **Connection/listening**, and **Something positive**. The screen marks official approaches and custom adaptations. It is a quick reference, **not** the full training lesson or a crisis/safety plan.
 
-## Learn and Review
+## Learn and Review — Learning units rather than automatic calendar weeks
 
-Week 1 is assigned. Weeks 2–4 are proposals; Weeks 5–8 remain open/unassigned. Learn contains primary reading, optional video and Tuesday ChatGPT education starter, plus the solo and optional guided rehearsal instructions. Review provides a seven-day log, separate events, editable weekly notes, a copied Markdown report, and a local PDF. Generated PDF and copied reports are **unencrypted** and must be shared intentionally.
+**Learning Unit 1 is rebuilt** in `LEARNING-UNIT-01.md`: Wise Mind; Observe/Describe/Effectively; Fruzzetti Chapter 2 prerequisite and Chapter 3 alternative-response rehearsal; STOP and its Proceed Mindfully component; Missing-Links versus Chain Analysis; a limited ACT comparison. See `PROGRAM-MAP.md` for the broader provisional capability/method rationale. **The old fixed Week 2–4 topic previews have been retired**. Units 2 onward remain unassigned in the app, and the user may remain in one learning unit for many calendar weeks. The selected **Learning unit** stays put until changed manually; dates no longer advance it.
 
-## Adaptive weekly deep dive
+The Learn screen offers **Copy Deep Dive Prompt** for every unit and a diverse set of seven Unit 1 practice/analysis scenarios rather than three mostly STOP-focused stories. For unassigned units, **Copy adaptive guided rehearsal** asks ChatGPT to retrieve the latest *actually taught* skill. The app doesn't directly know which unit the Library assigned; a user must change the unit selector after deciding to advance. Past lesson completion values are retained in the encrypted vault; retired preview resources are simply no longer displayed as active assignments.
 
-**Learn → Copy Deep Dive Prompt** is now visible for every selectable week, including weeks with no preassigned resources. After Week 8, the week chooser automatically offers additional weeks based on the calendar, without assigning topics. Paste the copied text into a **new ChatGPT Skills Training chat inside the DBT/RO-DBT/ACT Project**. The prompt directs ChatGPT to read the latest relevant Monday "Next Week Training Brief" and relevant preceding training/rehearsal records in the Library's `Personal Growth Continuity Log.md`. It does **not** send data or read the Library from within the app. If the Monday brief is missing or undecided, ChatGPT should ask for the intended focus rather than use the app's old proposed outline. Week 1 retains the previously agreed STOP / Missing-Links / Fruzzetti material as a fallback.
+Weekly Review still tracks seven-day **calendar** periods. Its copied starter requests a **Next Learning Unit Brief** that explicitly says whether to continue, deepen or advance; it does not automatically increment the unit. The review report labels the active unit *at export*, which must not be interpreted as the unit of historical dates without contemporaneous tags. PDF and Markdown copied reports are unencrypted.
 
-The original in-app Week 2–4 resources and rehearsal examples remain **provisional previews**; they are not automatically rewritten from the Monday review, and you should not treat them as assigned when a newer focus has been selected. Curriculum copy requires no new permissions, database changes, or automatic synchronization. **Close Session** records the training outcome in the Library without closing the deep-dive chat. **Copy Monday starter** now asks for a formal Next Week Training Brief.
+## Deep dive, session records, and external sources
+
+The Deep Dive Prompt tells ChatGPT to consult the **Personal Growth Operating Protocol v1.2**, the **Capability and Methods Map**, the **Learning Unit 01 guide** (for Unit 1), and relevant session continuity records in Space/Library. It requests cross-source review, essential prerequisites, actual editions/page checks, method comparison and a lesson-to-rehearsal coverage table. App buttons copy text only and **do not** retrieve Library documents, submit chats, or save `Close Session` records.
 
 ## Updating an existing installation
 
 1. **First, export an encrypted backup** from your working v1.0.4 (or your currently installed version) app (Settings gear). Keep it somewhere private; remember your four-digit PIN.
-2. Unzip v1.0.5. Upload the **contents** of the `growth-practice-v1.0.5` folder to the **same GitHub Pages repository, branch, and directory** that host your app. Replace all existing files; keep the `icons` folder and `.nojekyll` file.
-3. Wait for GitHub Pages to deploy. Close/reopen the home-screen app and confirm it shows **v1.0.5**. Do **not** uninstall, delete the repository, change the web address, or clear Safari data.
+2. Unzip v1.0.7. Upload the **contents** of the `growth-practice-v1.0.7` folder to the **same GitHub Pages repository, branch, and directory** that host your app. Replace all existing files; keep the `icons` folder and `.nojekyll` file.
+3. Wait for GitHub Pages to deploy. Close/reopen the home-screen app and confirm it shows **v1.0.7**. Do **not** uninstall, delete the repository, change the web address, or clear Safari data.
 4. Unlock with the **same four-digit PIN**. Inspect one earlier event and one completed learning activity before adding new data.
 5. Try one positive event, one avoidance-related event, a solo rehearsal, and a weekly PDF. Use the included `UPGRADE-AND-TEST.md` checklist.
 
@@ -54,3 +56,7 @@ The encrypted vault keeps the same database name (`growth-practice-v1`), data sc
 - No cloud account, analytics, tracking, third-party fonts, external script libraries, or ChatGPT API access. External YouTube links only open when selected. The app must be deployed via HTTPS; GitHub Pages hosts *code only*, not your private diary.
 - Automatic lock after five minutes idle, local encrypted export/restore, and offline service worker support remain. Existing data is tied to website origin / installed-app storage; the four-digit PIN cannot be recovered.
 - Automated tests covered screen logic, general events, older data, PIN cryptography, copied reports, PDF output, code syntax, and ZIP integrity. **iPhone/Safari browser acceptance and offline behavior still require your real-device check.**
+
+## v1.0.7 spiral-practice addition
+
+Learn and Skills now have **Copy Quick Recall Prompt** and **Copy Cumulative Rehearsal**. Neither button retrieves Space data by itself, changes completion flags, or logs a rehearsal. The pasted ChatGPT prompt asks to confirm *which skills were actually introduced*, uses brief retrieval before hints, and combines no more than two previously taught components in an everyday scenario. If only one skill has been taught, the prompt varies that single skill rather than inventing a prior curriculum. Monday's prompt chooses a small earlier-skill revisit in the Next Learning Unit Brief, rather than an app-imposed due date. Record any actual practice in Today (note the skill, actual attempt, and source of evidence). These are custom educational supports, not official therapy skills or proof of transfer to real life.
