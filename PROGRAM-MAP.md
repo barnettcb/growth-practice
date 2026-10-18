@@ -1,6 +1,6 @@
 # Personal Growth Program — Capability, Context, and Methods Map
 
-**Version:** 1.1 (spiral-practice amendment to initial audit)  
+**Version:** 1.3 (incident-review routing and starter-prompt alignment; October 17, 2026)  
 **Prepared:** October 17, 2026  
 **Status:** Living *educational* formulation; **not** a clinician's case formulation, diagnosis, treatment plan, psychological assessment, or rating of anyone's personality.  
 **Authoritative location proposed:** Space/Library `/Personal Growth Program/Personal Growth Program - Capability and Methods Map.md`.
@@ -102,7 +102,39 @@ A targeted *relevant-section and table-of-contents* review was completed for the
 - [Open Library](https://openlibrary.org/help/faq/borrow) — searchable book catalog and **borrowable** digitized volumes when legitimately available. Availability, searchability of text and loan restrictions vary; no blanket automated access assumption.
 - Publisher excerpts, university-hosted training pages, author handouts and legitimate library ebook loans are suitable adjuncts. **Avoid unauthorized copies, access circumvention, mass scraping of lending sites, and invented references.** External resources must meet a practical criterion: What additional explanation, evidence, prerequisite or exercise do they actually contribute?
 
-## E. How future curricula should be decided and updated
+## E. Program architecture and effectiveness checkpoints — October 17 audit
+
+**Use this map to select capabilities and methods, not to turn each incident into a full case study.** The authoritative operating rules, including the decision-relevant question gate and chat-purpose boundaries, reside in `Personal Growth Operating Protocol.md` v1.6. In brief: Program Development discusses the overall method and evaluates the evidence; a separate Focused Situation Analysis examines an incident when warranted; Skills Training, Rehearsal, and Monday Weekly Review are established recordable session types. RO Journal, therapist homework and the Growth Practice app remain distinct.
+
+**Process audit findings and corrective choices:**
+
+| Observed program failure risk | Design correction | How to recognize that correction is working |
+|---|---|---|
+| An individual real-life incident consumes a program-design discussion | State the chat purpose; use the example only to identify a process lesson and then return to governance; conduct further case analysis in a focused chat | Program discussion ends in a decision about the program rather than another round of incident-detail questions |
+| Many small clarifying questions produce a long assessment with marginal informational gain | Ask only high-value questions, periodically synthesize, explicitly stop when an answer would not change formulation or action | Uncertainties are preserved instead of interrogated away; a bounded working understanding is available |
+| User must repeatedly supply old handoff context | Retrieve *relevant* prior history and newer corrections before forming a hypothesis or repeating an answered question | Earlier user reports and counterexamples are incorporated accurately without an unrelated data dump |
+| Insight and source comparisons replace rehearsal/behavior | Make a context-appropriate stage decision: teach one source method, practice an actual response, try a manageable life action, reflect or defer as chosen | The next activity has a clear purpose; later records distinguish understanding from attempted behavior |
+| Full multi-model curriculum becomes the default response to every event | Select a single leading approach for the observed functional gap; add a second only for a genuine missing function | One realistic practiced action rather than a synthetic four-model script |
+| Recordkeeping/app design substitutes for real-world change | Use existing documents, concise records only at defined triggers, and evidence-based periodic review | Progress claims arise from reported/observed actions and consequences, not from documents, plans or clicks |
+
+**Practical observation dimensions, not scores:** (1) trigger or opportunity recognized and when; (2) action attempted, interrupted or not done; (3) chosen alternative and fit to stated goals/values; (4) follow-through across *actual* opportunities; (5) outcomes and counterexamples with uncertain third-party perspectives; (6) balance of conflict and nonconflict/positive behaviors. Do not require all six fields for every event or claim that a favorable interaction outcome validates the method. For a **single anecdote**, record a provisional mechanism without inferring durable progress; seek different contexts and later observations before changing broad priority rankings.
+
+**A testable method choice (illustrative, not assigned homework):** If an everyday unexpected criticism prompts rapid explaining, consider Linehan STOP or Observe/Describe for *interrupting/noticing*, then identify whether the next missing behavior is listening, a brief factual clarification, or a limit. If the issue is *attention to another's expressed needs*, Fruzzetti's mindful partner attention or relevant DBT interpersonal skills may be better than repeating STOP. For missed *planned acts*, Linehan Missing-Links and ACT committed action may fit more directly. For desired *positive initiative*, ACT values/committed action or modest behavioral plans may fit. The method is chosen for the observed task, **not presumed to be a cure or a requirement to use multiple modalities**.
+
+## E1. Incident / Issue Review routing — October 17 update
+
+**Design decision:** Incident Review is an optional short ChatGPT workflow, not an official named therapeutic technique or a new universal homework assignment. It should retrieve relevant historical context, distinguish observations from interpretations, and choose an appropriate **source-specific** analysis only when that would affect the learning or behavior decision. Keep the Program Development chat for governing program decisions; use separate issue-review chats for particular events.
+
+- **Behavior occurred and its sequence/function matters:** consider a **complete Linehan Behavior Chain Analysis** (General Handouts 6–7a), including prompting event, vulnerabilities, links, consequences, solution analysis and prevention/repair. A simplified contextual review must not be called the full Chain Analysis.
+- **Intended effective behavior did not occur:** consider Linehan **Missing-Links Analysis** (General Handout 8), testing knowledge, willingness, memory/timing and implementation obstacles without assuming avoidance or disregard.
+- **No clear target or a brief understanding is sufficient:** use a **bounded contextual review**, including positive events and counterexamples; label this a custom organizing discussion, not an 'official hybrid.'
+- **Another functional gap predominates:** source-match the specific ACT, Fruzzetti, RO-DBT, CBT, or related method and retain its original scope; don't claim that a novelty-to-threat hypothesis, overcontrol, or relationship interpretation has been confirmed by a reconstructed event.
+
+**Gate to stop:** Ask whether another answer could change source selection, risk, an actionable target or the user's decision. An ordinary review often needs only a few high-information questions; formal worksheets may legitimately take longer, one section at a time. Output one concise formulation or decision, at most one next practice opportunity, and an explicit stop. Nothing in the app automatically transfers event data or records practice. A user may request reflection without action.
+
+**Application to LU1:** Case discussion should support (not replace) training Observe/Describe, STOP's P, the Fruzzetti Ch. 2/3 sequence and Missing-Links-vs-Chain recognition. Continue the already rebuilt syllabus; verify specific new source claims as needed instead of repeatedly rebuilding the whole curriculum.
+
+## F. How future curricula should be decided and updated
 
 **After each Monday review** (even if a learning unit continues): retrieve relevant current entries and source decisions; discuss actual experiences including positive or uneventful days; identify current target and distinction between *new problem*, *unchanged problem*, and *insufficient observations*; decide continue, deepen, revisit prerequisites, add practice, or start a different unit. Store a **Next Learning Unit Brief** in the chronological log. **Do not automatically increment unit number.**
 
@@ -112,6 +144,13 @@ A targeted *relevant-section and table-of-contents* review was completed for the
 
 ### Initial decision register
 
+- **2026-10-17 (confirmed user):** Optional Incident / Issue Review prompt should choose the named source method (complete Chain Analysis or Missing-Links when warranted), otherwise stay a short contextual review; no generic hybrid, repetitive incident interrogation, or new mandatory app entry.
+- **2026-10-17 (confirmed user):** Continue existing LU1 guide with a focused next-stage prompt; do not relaunch comprehensive curriculum research each session. App baseline corrected to Growth Practice v1.0.8 for the next build.
+
+- **2026-10-17 (confirmed user, program audit):** This chat is for program development and effectiveness oversight, while substantive individual incidents should ordinarily receive focused separate chats; do not silently drift between the modes.
+- **2026-10-17 (confirmed user, program audit):** Event analysis must be bounded by informational benefit. Avoid endless refinement and repetitive questions; move to a concise provisional formulation and the next useful stage once more detail is unlikely to change the decision. No rigid clock or universal question quota.
+- **2026-10-17 (confirmed user, program audit):** Assess the program by observable change and evidence-based revisions, not by length of the case analysis, completeness of a complex curriculum, or record/app volume. Neither the dog-toy incident nor its conjectured relationship meanings establishes a general personal pattern or successful use of the complete STOP protocol.
+
 - **2026-10-17 (confirmed user):** Learning units—not calendar weeks—control instructional progress; a unit may last several weeks. Monday personal reviews continue on the calendar.
 - **2026-10-17 (confirmed user):** Learning Unit 1 is only barely started; comprehensively rebuild before continuing. Previous long deep-dive chat may be removed by the user; do **not** treat it as continued evidence or delete anything on the user's behalf.
 - **2026-10-17 (confirmed user):** Rare severe verbal escalation is not the dominant issue; balance sources/examples around ordinary day-to-day difficulties and nonconflict behaviors.
@@ -119,7 +158,7 @@ A targeted *relevant-section and table-of-contents* review was completed for the
 - **2026-10-17 (confirmed user):** Use a spiral curriculum: previously introduced skills recur in spaced, cumulative, appropriately varied practice even after a new learning unit begins. These revisits do not imply proficiency or force a calendar-based sequence.
 - **Next decision (not yet observed):** whether Learning Unit 2 should prioritize initiative/follow-through or listening/relationship attention; determine from Monday review and user priorities, not a fixed sequence.
 
-## F. Suggested next questions for periodic (not mandatory intake) review
+## G. Suggested next questions for periodic (not mandatory intake) review
 
 - Which of C01–C12 are **frequent** now, which have the biggest practical consequences, and which feel most changeable? Don't infer from past salience.
 - What real-life examples reveal that an intended action was *not recalled*, *not known*, *not chosen*, or *blocked after recall*? Answer only when an event exists.
@@ -129,7 +168,7 @@ A targeted *relevant-section and table-of-contents* review was completed for the
 **No requirement to answer all these before beginning instruction.** The map should reduce repeated questioning, not introduce another bureaucratic homework layer.
 
 
-## G. Spiral curriculum: retention and combination map (2026-10-17)
+## H. Spiral curriculum: retention and combination map (2026-10-17)
 
 **Confirmed design decision:** Skills remain eligible for later retrieval and practice after their original unit is no longer the active topic. This is a **teaching design**, not new information about the user's capabilities. The source methods retain their own attribution. Space/Library continuity records—not a calendar-week number or unchecked app worksheet—are the evidence of actual study or rehearsal.
 

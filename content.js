@@ -1,8 +1,8 @@
 'use strict';
-// v1.0.8: topic-linked optional videos; learning units with optional spiral recall/rehearsal prompts; no automatic progression. The latest confirmed Monday review controls.
+// v1.0.9: topic-linked optional videos; learning units with optional spiral recall/rehearsal prompts; no automatic progression. The latest confirmed Monday review controls.
 // In-app curriculum is an offline reference, NOT a Library sync or proof a lesson was studied.
 const GP_CONTENT={
- version:'1.0.8',
+ version:'1.0.9',
  startMonday:'2026-10-19', // retained as legacy setting; never used to auto-advance a learning unit
  week1:{
   number:1,title:'Notice, pause, choose a workable response',subtitle:'Wise Mind + STOP + Fruzzetti Chapters 2–3 + Missing-Links / Chain distinction',
@@ -18,7 +18,7 @@ const GP_CONTENT={
    {id:'fruzzetti',type:'Primary skill',title:'Fruzzetti — Chapter 3',detail:'The High-Conflict Couple, How to Stop Making Things Worse, printed pp. 29–38 (PDF pp. 42–51).',explanation:'Identify familiar cues, anticipate urges, practice constructive alternatives, and decide whether a brief respectful interruption or appropriate boundary fits.',videos:[{title:'Dr. Jennifer May — Urge Surfing (related DBT skill)',url:'https://www.youtube.com/watch?v=RIA2ewXayTc'}]},
    {id:'linehan-ml',type:'Behavior-analysis skill',title:'Linehan — Missing-Links and Chain distinction',detail:'General Handouts 6–8, printed pp. 19–23 (PDF pp. 43–47). General Worksheet 3 printed p. 38 (PDF p. 62) optional.',explanation:'Missing-Links: a needed action did not occur; Chain: an ineffective action did occur. Choose based on the situation, not assumed motives.'},
    {id:'act-compare',type:'Targeted comparison',title:'ACT — Choice Point and defusion (optional depth)',detail:'Russ Harris, ACT with Love (2nd ed.), Ch. 5 Choice Point; Luoma/Hayes/Walser Learning ACT Chs. 3–4. Verify targeted passages during deep dive.',explanation:'Notice compelling thoughts and choose values-guided action. Comparing does not mean completing all ACT exercises in this unit.'},
-   {id:'deepdive-20261017',type:'ChatGPT learning session',title:'Learning Unit 1 — rebuilt deep dive',detail:'Copy the current Deep Dive Prompt and start a NEW chat in this Project. Work through the staged material at your own pace. This checkbox is for actually studying the new deep dive, not merely generating it.',explanation:'Close Session saves progress, not the chat or entire learning unit. Additional readings and rehearsals remain separate.'},
+   {id:'deepdive-20261017',type:'ChatGPT learning session',title:'Learning Unit 1 — rebuilt deep dive',detail:'Copy the current Deep Dive Prompt and resume the next unfinished component in a NEW focused skills chat. The verified current guide controls; no need to rebuild the course each sitting. This checkbox is for actually studying the new deep dive, not merely generating it.',explanation:'Close Session saves progress, not the chat or entire learning unit. Additional readings and rehearsals remain separate.'},
    {id:'emotion',type:'Optional',title:'Emotion vocabulary / accessible practice',detail:'User-owned Atlas of the Heart or other verified explanation when helpful; not required for the core STOP/Wise Mind practice.',explanation:'Do not force an emotion label during an ordinary interaction or a rehearsal.'}
   ],
   rehearsals:[

@@ -1,10 +1,10 @@
-# Growth Practice v1.0.8 — Upgrade and acceptance checklist
+# Growth Practice v1.0.9 — Upgrade and acceptance checklist
 
 ## Protect the existing app
 
 - [ ] In the working installed app, save a PIN-encrypted backup to private storage.
-- [ ] Upload all files from v1.0.8 to the **same** GitHub Pages URL/repository. Do not uninstall or clear Safari website data.
-- [ ] Reopen and verify the header is **v1.0.8**, unlock with the **same PIN**, and find at least one older entry/learning checkbox.
+- [ ] Upload all files from v1.0.9 to the **same** GitHub Pages URL/repository. Do not uninstall or clear Safari website data.
+- [ ] Reopen and verify the header is **v1.0.9**, unlock with the **same PIN**, and find at least one older entry/learning checkbox.
 - [ ] Confirm older event notes and their historical response tags remain visible, even though the new event form is generic.
 
 ## Daily use
@@ -20,7 +20,7 @@
 
 ## Adaptive deep-dive prompt regression checks
 
-- [ ] Learn → Learning Unit 1 has **Copy Deep Dive Prompt**. Verify that it refers to v1.2 protocol, the Unit 1 guide, the Capability and Methods Map, Wise Mind and Fruzzetti Chapter 2.
+- [ ] Learn → Learning Unit 1 has **Copy Deep Dive Prompt**. Verify that it refers to current Operating Protocol, the Unit 1 guide, the Capability and Methods Map, Wise Mind and Fruzzetti Chapter 2.
 - [ ] Learn → Learning Unit 2 has the Deep Dive button, does not assign the old ACT preview, and asks to retrieve the latest applicable Next Learning Unit Brief.
 - [ ] Learn → Unit 5 and Unit 8 show the copy button even when resources are not assigned. They request their respective Monday briefs and instruct ChatGPT to ask if none exists.
 - [ ] Review → Copy Monday starter includes an explicit "Next Learning Unit Brief" instruction.
@@ -37,7 +37,7 @@
 **If something seems missing:** do not clear data or uninstall the app. Preserve the earlier backup and note the precise app version and steps that produced the problem.
 
 
-## New v1.0.8 learning-unit acceptance checks
+## New v1.0.9 learning-unit acceptance checks
 
 - [ ] Learn defaults to Unit 1 with **nine** study items and **seven** distinct practice/analysis examples, including Fruzzetti Ch. 2 and Missing-Links.
 - [ ] Copy Deep Dive Prompt references the rebuilt learning-unit guide, comprehensive source comparison, prerequisite audit and the new Methods Map.
@@ -48,7 +48,7 @@
 - [ ] Existing PIN, previous diary events, checked original reading items, encrypted backup, and PDF report still work. Do not restore a backup without understanding replacement behavior.
 - [ ] Offline refresh and iPhone home-screen tests must be done on the actual device after deployment; static checks do not verify these.
 
-## v1.0.8 cumulative/spiral tests
+## v1.0.9 cumulative/spiral tests
 
 - [ ] Learn → see Quick Recall and Cumulative Rehearsal buttons for Unit 1, and for an unassigned unit.
 - [ ] Skills → same two copy buttons available without leaving the quick reference.
@@ -60,7 +60,7 @@
 - [ ] Optionally record an actual review attempt in Today → Skill rehearsal → note the named skill. Export weekly report to confirm the practice note remains.
 - [ ] Old diary records, PIN, learning checkboxes, backup, and offline reopening still work. Never clear Safari data to force an upgrade.
 
-## v1.0.8 topic-linked video checks
+## v1.0.9 topic-linked video checks
 
 - [ ] Open **Learn → Unit 1**. Under Wise Mind, check that the video link is visible without expanding **Details**; confirm it opens the intended YouTube URL.
 - [ ] Under Observe/Describe, confirm separate **What Skills** and **How Skills** video links.
@@ -68,3 +68,11 @@
 - [ ] Missing-Links has no unverified/misattributed Dr. May video.
 - [ ] Copy Deep Dive Prompt and ensure that it requests topic-linked supplementary videos and does not claim they have been watched.
 - [ ] Open videos without marking the reading checkboxes; verify no checkbox changes. Test availability and return to the app on iPhone.
+
+## v1.0.9 incident review / focused learning regression checks
+
+- [ ] In **Skills**, find **Review a real-life situation → Copy Incident Review Prompt**. On copy, no event, rehearsal, completion or export changes occur. Paste into an offline text editor for inspection before sharing anything sensitive.
+- [ ] Confirm the prompt uses brief contextual review by default when no behavior-analysis target has been established, and distinguishes an actual ineffective action (Linehan complete Chain Analysis) from an intended effective action not done (Missing-Links). Confirm it asks one question/section at a time, can stop early, and does not mislabel a generic hybrid as official DBT.
+- [ ] In **Learn → Unit 1**, copy the Deep Dive prompt: it should **resume next unfinished content** from the latest guide and continuity record, not require rebuilding the course or researching all models every sitting. For unassigned Unit 2, it should ask for a confirmed brief instead of inventing an assignment.
+- [ ] Confirm optional topic-linked videos remain beside their relevant readings, Quick Recall / Cumulative Practice buttons still copy, and a user can log a positive/ordinary event without starting an Incident Review.
+- [ ] Verify previously checked learning resources, PIN unlock, encrypted backup/download and restore, existing events, calendar review/PDF, no automatic unit advancement, 5-minute lock and offline refresh on the installed device. **Never clear site data or uninstall to force an upgrade.**
