@@ -1,6 +1,6 @@
 # Personal Growth Program — Capability, Context, and Methods Map
 
-**Version:** 1.3 (incident-review routing and starter-prompt alignment; October 17, 2026)  
+**Version:** 1.5 (structured learning with flexible application; October 28, 2026)  
 **Prepared:** October 17, 2026  
 **Status:** Living *educational* formulation; **not** a clinician's case formulation, diagnosis, treatment plan, psychological assessment, or rating of anyone's personality.  
 **Authoritative location proposed:** Space/Library `/Personal Growth Program/Personal Growth Program - Capability and Methods Map.md`.
@@ -20,6 +20,15 @@ This document is the program's durable, revisable **selection map**. It gathers 
 - **O — Observed rehearsal in a chat.** Distinct from reported and sustained daily-life behavior.
 
 **Frequency, importance, and fit are not scored yet.** Source-model fit in the tables is an *educational match to a stated problem*, not a personalized efficacy prediction. Changes in goals, clinical assignment, or the user's current account supersede historical notes.
+
+
+### Current controlling educational direction — October 28, 2026
+
+**Approved:** Structured learning with flexible application. Maintain a progressive, genuine education pathway across ACT and other relevant methods **alongside** therapist-directed RO-DBT, but pace it slowly enough for realistic practice. Use **one supplemental Learning Unit at a time**, divided into small, achievable lessons. Prefer **two short instructional sittings spread throughout the week (about 20–25 minutes each as a trial), with a third optional**; workload may justify fewer. Each lesson combines one capability, real source-grounded teaching, actual introductory exercise/rehearsal, and later brief retrieval and everyday practice. A multiweek unit is acceptable; a prolonged period of only studying before any practice is not. This structure is custom instructional design, not a source-authorized psychotherapy protocol.
+
+**Priorities and limits:** Formal RO-DBT therapist homework and the separate possible couples-therapy process are not replaced or merged. The Oct 29 RO restart and its lesson remain unverified; Oct 28 couples consultation does not establish ongoing therapy. Continue the daily-ish ten-minute breath meditation intention, Monday evidence-based review, relevant rehearsal and application; avoid new trackers, gamification, mandatory scores, or redundant diaries. The current LU1 guide **v2.6 completed core instruction and introductory rehearsal Oct 27** and explicitly **removed Fruzzetti Chapters 2–3 as requirements**. Earlier passages below that say "LU1 continues" or list Fruzzetti Chs 2–3 as essential/next are **retained only as historical planning statements and are superseded**. ACT is a leading candidate for future progressive learning, but **no LU2 or ACT syllabus is yet approved**.
+
+**App implementation boundary:** Growth Practice v1.0.10 is an authored update enabling manual preview/import of unit and short-lesson definitions after a user-confirmed Monday decision. It does not read this Library, update itself from chat, or prove exercise completion; deployed version and backups still require user verification.
 
 ## B. Audited concern areas and balanced priority map
 
@@ -55,7 +64,7 @@ This document is the program's durable, revisable **selection map**. It gathers 
 
 ### Provisional sequencing (capability-based; **not** a fixed eight-week syllabus)
 
-**Learning Unit 1 — Noticing, stopping, and choosing an effective ordinary response.** Essential: STOP; Wise Mind; Observe/Describe/nonjudgment; Fruzzetti Ch. 2 foundation and Ch. 3 alternative-response rehearsal; Missing-Links for intended practice and Chain Analysis only when the question concerns an enacted ineffective response. ACT Choice Point/defusion as deliberately brief comparison or next-unit candidate, not silently required in full. **Context balance:** include work, neutral feedback, genuine mistakes, and everyday relationship issues; do not build most practice around screaming or extreme distress.
+**Learning Unit 1 — Noticing, stopping, and choosing an effective ordinary response (Oct 27 updated status: foundational instruction/introductory rehearsal COMPLETE).** Actual completed source basis: Linehan STOP; Wise Mind; Observe/Describe/Participate and mindfulness How skills; Missing-Links/Chain distinction. Fruzzetti Chapters 2–3 were *removed* as requirements; older proposals were superseded. ACT comparison/defusion is for later separately approved instruction, not an LU1 completion gate. **Context balance:** include work, neutral feedback, genuine mistakes, and everyday relationship issues; do not build most practice around screaming or extreme distress.
 
 **Potential next unit — Remembering, initiating, and following through.** Strong candidate based on broad reported needs, but Monday review should select or defer. Prerequisites: define a concrete intended action, know how to distinguish nonoccurrence from avoidance, match cues and commitments to actual barriers. Possible Linehan Missing-Links plus ACT committed action/CBT behavioral design and relational initiative.
 
@@ -104,7 +113,7 @@ A targeted *relevant-section and table-of-contents* review was completed for the
 
 ## E. Program architecture and effectiveness checkpoints — October 17 audit
 
-**Use this map to select capabilities and methods, not to turn each incident into a full case study.** The authoritative operating rules, including the decision-relevant question gate and chat-purpose boundaries, reside in `Personal Growth Operating Protocol.md` v1.6. In brief: Program Development discusses the overall method and evaluates the evidence; a separate Focused Situation Analysis examines an incident when warranted; Skills Training, Rehearsal, and Monday Weekly Review are established recordable session types. RO Journal, therapist homework and the Growth Practice app remain distinct.
+**Use this map to select capabilities and methods, not to turn each incident into a full case study.** The authoritative operating rules, including incident/rehearsal continuity and therapist-track coordination, reside in the current `Personal Growth Operating Protocol.md` (v1.10 as of October 26, 2026). In brief: Program Development discusses the overall method and evaluates the evidence; a separate Focused Situation Analysis examines an incident when warranted; Skills Training, Rehearsal, and Monday Weekly Review are established recordable session types. RO Journal, therapist homework and the Growth Practice app remain distinct.
 
 **Process audit findings and corrective choices:**
 
@@ -132,17 +141,27 @@ A targeted *relevant-section and table-of-contents* review was completed for the
 
 **Gate to stop:** Ask whether another answer could change source selection, risk, an actionable target or the user's decision. An ordinary review often needs only a few high-information questions; formal worksheets may legitimately take longer, one section at a time. Output one concise formulation or decision, at most one next practice opportunity, and an explicit stop. Nothing in the app automatically transfers event data or records practice. A user may request reflection without action.
 
-**Application to LU1:** Case discussion should support (not replace) training Observe/Describe, STOP's P, the Fruzzetti Ch. 2/3 sequence and Missing-Links-vs-Chain recognition. Continue the already rebuilt syllabus; verify specific new source claims as needed instead of repeatedly rebuilding the whole curriculum.
+**Application to LU1 after October 27:** Foundational instruction and initial guided rehearsal are complete. Relevant case discussions can inform later cumulative practice of Observe/Describe, STOP and Missing-Links-vs-Chain selection. Fruzzetti Chs. 2–3 are not required; no additional completion gate is implied.
+
+## E2. Coordinating professional treatment and supplemental learning (October 28 revision)
+
+**Historical October 26 decision:** Formal therapist RO-DBT and an independent Learning Unit track were coordinated, but LU1 was then incorrectly treated as awaiting required Fruzzetti material. The October 27 accepted guide and October 28 revised instructional preferences supersede that part. Keep original October 26 review `PG-20261026-01` intact as a dated record.
+
+**Current arrangement:** Formal individual RO-DBT follows clinician assignments; possible IBCT-aligned couples treatment is separate; the independent Personal Growth program develops skills from ACT, standard DBT and other source-based approaches in short progressive lessons, while Monday reviews examine actual behavior and workload. Two distributed short sittings weekly are the normal preference, third optional, with no automatic advancement, duplication of clinician assignments, or required therapist-session disclosure. Separate RO Diary, RO Journal, Growth Practice and Personal Growth continuity records remain separate.
+
+**Update trigger:** The user supplies actual therapist/couples-therapy commitments when relevant; the next Monday review or explicit user decision selects the next *small lesson*. The app's locally imported catalog may reflect that decision but cannot replace it or determine an assignment.
 
 ## F. How future curricula should be decided and updated
 
-**After each Monday review** (even if a learning unit continues): retrieve relevant current entries and source decisions; discuss actual experiences including positive or uneventful days; identify current target and distinction between *new problem*, *unchanged problem*, and *insufficient observations*; decide continue, deepen, revisit prerequisites, add practice, or start a different unit. Store a **Next Learning Unit Brief** in the chronological log. **Do not automatically increment unit number.**
+**After each Monday review** (even if a learning unit continues): retrieve relevant current entries and source decisions; discuss actual experiences including positive or uneventful days; identify current target and distinction between *new problem*, *unchanged problem*, and *insufficient observations*; decide continue, deepen, revisit prerequisites, add practice, or start a different unit. Store a concise **Next Learning Unit Brief**, including the next short lesson or explicit deferral, in the chronological log. **Do not automatically increment unit number.**
 
 **Before each deep dive:** review this map selectively, conduct a focused new source/prerequisite/alternative audit appropriate to the chosen unit; distinguish verified reading from suggested further sources. Provide a source table and practice coverage table. Update this map only when an enduring issue/priority/method assessment actually changes—not after every ephemeral chat.
 
 **Every ~4 Monday reviews, and sooner after meaningful new evidence:** revisit priority order, models considered, reported changes and counterexamples, abandoned/unfinished skills, broad life domains, and fit hypotheses. Refer to dated log records. When changes to a previous conclusion are needed, preserve a short dated change note rather than rewriting the historical report as fact.
 
 ### Initial decision register
+
+- **2026-10-26 (confirmed via Monday Review `PG-20261026-01`):** Maintain concurrent tracks for therapist-directed RO-DBT and independent Personal Growth Learning Units. Resume therapy on October 29 and RO Lesson 13 are planned/provisional; confirm the real lesson and assignments afterward. Continue LU1 with Fruzzetti Chapters 2–3 unless subsequently changed; coordinate in Monday Reviews without duplicating formal homework or automatically advancing either track.
 
 - **2026-10-17 (confirmed user):** Optional Incident / Issue Review prompt should choose the named source method (complete Chain Analysis or Missing-Links when warranted), otherwise stay a short contextual review; no generic hybrid, repetitive incident interrogation, or new mandatory app entry.
 - **2026-10-17 (confirmed user):** Continue existing LU1 guide with a focused next-stage prompt; do not relaunch comprehensive curriculum research each session. App baseline corrected to Growth Practice v1.0.8 for the next build.
@@ -185,3 +204,7 @@ A targeted *relevant-section and table-of-contents* review was completed for the
 **Spaced-practice evidence:** Dunlosky et al. (2013) rate practice testing and distributed practice highly for general learning; interleaving has more qualified/variable evidence. Pashler et al. (2007) recommend spacing and integrating explanation with practice. These findings inform the design but **do not prove** an optimal clinical schedule or that any exercise produces durable behavioral change for this user. See https://doi.org/10.1177/1529100612453266 and https://ies.ed.gov/ncee/wwc/PracticeGuide/1 .
 
 **Initial retention roster:** The October 16 guided STOP rehearsal exists in the continuity log. Do not infer study, successful recall or rehearsal of Wise Mind, Fruzzetti Chapter 2/3 or Missing-Links merely because the reconstructed Unit 1 syllabus now includes them. The first cumulative selection should follow actual Unit 1 study and relevant review records. No automated due dates or mastery levels are assigned.
+
+### October 28, 2026 — Change register v1.5
+
+The latest program-level approval is **structured learning with flexible application**. It preserves progressive education over time, with ACT leading but not assigned as the next unit, short repeatable lessons and an average preference for two brief instructional sittings per week plus an optional third. Formal RO-DBT and possible couples therapy remain separate but inform feasible workload. LU1 v2.6 is complete at the educational foundation level; Fruzzetti Chs. 2–3 were removed. A focused Growth Practice curriculum import update was authorized, without requiring the app to sync automatically or collect clinical data. Historical earlier decisions and resource comparisons are retained rather than silently rewritten.
